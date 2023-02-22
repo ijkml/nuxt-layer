@@ -1,5 +1,5 @@
 {
-  "name": "my-nuxt-layer",
+  "name": "ml-layer",
   "type": "module",
   "version": "0.0.1",
   "main": "./nuxt.config.ts",
@@ -10,6 +10,16 @@
     "preview": "nuxi preview .playground",
     "lint": "eslint ."
   },
+  "files": [
+    "app/",
+    "components/",
+    "layouts/",
+    "utils/",
+    "app.vue",
+    "app.config.ts",
+    "nuxt.config.ts",
+    "nuxt.schema.ts"
+  ],
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "eslint": "^8.28.0",
